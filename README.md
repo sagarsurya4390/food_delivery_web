@@ -37,9 +37,3 @@ Make sure you have the following tools installed on your local machine:
 - npm (Node Package Manager)
 - MongoDB (local or cloud database, e.g., MongoDB Atlas)
 
-### Steps to Run Locally
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/your-username/food-delivery-app.git
