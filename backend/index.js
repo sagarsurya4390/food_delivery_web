@@ -13,9 +13,10 @@ mongoDB();
 
 // CORS Middleware (using the `cors` package to handle all CORS cases)
 app.use(cors({
-  origin: 'http://localhost:5173',  // Only allow requests from this origin
+  origin: "*",  // Only allow requests from this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],  // Allow these methods
   allowedHeaders: ['Content-Type', 'Authorization'],  // Allow these headers
+  credentials: true
 }));
 
 // Middleware to parse JSON request bodies

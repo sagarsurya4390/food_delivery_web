@@ -12,7 +12,7 @@ export default function Home() {
 
   const loadData = async () => {
     setLoading(true); // Start loading before fetching data
-    let response = await fetch("http://localhost:5000/api/foodData", {
+    let response = await fetch("https://food-delivery-web-sogi.onrender.com/api/foodData", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
